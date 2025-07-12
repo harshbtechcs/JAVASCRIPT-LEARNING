@@ -1,0 +1,19 @@
+.new{
+    border: 2px dashed black;
+    border-radius: 10px;
+    color: rgb(57, 16, 221);
+    height: 20px;
+    width: 55px;
+    padding: 2px;
+
+}
+body{
+    text-align: center;
+    background-color: aqua;
+
+}
+
+.new:hover{
+    background-color: brown;
+
+}
