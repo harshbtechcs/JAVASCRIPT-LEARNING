@@ -37,9 +37,9 @@
   ">Bat</button>
 
   <button id="mmm" class="new" onclick="
-    usermsg = 'You have chosen Ball \n';
-     randomValue = Math.random() * 3;
-    computerChoice = '';
+    const usermsg = 'You have chosen Ball \n';
+    let randomValue = Math.random() * 3;
+    let computerChoice = '';
 
     if (randomValue > 0 && randomValue <= 1) {
       computerChoice = 'bat';
@@ -49,8 +49,8 @@
       computerChoice = 'stump';
     }
 
-    computerChoicemsg = `Computer choice is ${computerChoice}\n`;
-     resultMsg;
+    const computerChoicemsg = `Computer choice is ${computerChoice}\n`;
+    let resultMsg;
 
     if (computerChoice === 'stump') {
       resultMsg = 'user won';
@@ -64,9 +64,9 @@
   ">Ball</button>
 
   <button id="nnn" class="new" onclick="
-    usermsg = 'You have chosen Stump \n';
-     randomValue = Math.random() * 3;
-    computerChoice = '';
+    const usermsg = 'You have chosen Stump \n';
+    let randomValue = Math.random() * 3;
+    let computerChoice = '';
 
     if (randomValue > 0 && randomValue <= 1) {
       computerChoice = 'bat';
@@ -76,8 +76,8 @@
       computerChoice = 'stump';
     }
 
-     computerChoicemsg = `Computer choice is ${computerChoice}\n`;
-    resultMsg;
+    const computerChoicemsg = `Computer choice is ${computerChoice}\n`;
+    let resultMsg;
 
     if (computerChoice === 'bat') {
       resultMsg = 'user won';
